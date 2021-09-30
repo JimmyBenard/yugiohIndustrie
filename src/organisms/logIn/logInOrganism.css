@@ -1,0 +1,42 @@
+/*#region FORM*/
+.logInForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+/*#region CONTENT*/
+.logInContent {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  width: 50%;
+  height: 50%;
+}
+.choiceWork {
+  position: absolute;
+  top: 50%;
+  right: 49%;
+}
+.logInSide {
+  background-color: rgb(135, 235, 205);
+  width: 50%;
+  padding: 30px;
+}
+.signInSide {
+  background-color: rgb(236, 196, 143);
+  width: 50%;
+  padding: 30px;
+}
+/*#endregion*/
+/*#region MODAL*/
+.backgroundModal {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+}
+/*#endregion*/
+/*#endregion FORM*/
